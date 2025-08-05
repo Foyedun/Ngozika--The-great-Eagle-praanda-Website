@@ -1,0 +1,86 @@
+.about {
+  margin-bottom: 80px;
+}
+.about .heading {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 15px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.about .ceo-profile {
+  display: flex;
+  align-items: center; /* vertically center image and text */
+  gap: 16px;           /* some space between image and text */
+}
+
+.about .ceo-profile img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+ 
+  transform: translateY(-57px);
+}
+.social-section {
+  text-align: center;
+}
+
+.contact-us-title {
+  color: #1d4ed8; /* nice blue */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* spacing between each social media */
+  margin-top: 10px;
+}
+
+.social-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #555;
+  font-size: 36px; /* bigger icons */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #1d4ed8; /* hover blue */
+}
+
+.social-name {
+  font-size: 14px;
+  margin-top: 6px;
+  color: #333;
+  font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about .ceo-profile img {
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    transform: translateY(-4px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about .container {
+    flex-direction: column;
+  }
+  .about p {
+    padding: 0;
+  }
+  .about .container img {
+    margin-top: 50px;
+  }
+}

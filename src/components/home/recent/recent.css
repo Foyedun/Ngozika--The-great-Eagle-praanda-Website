@@ -1,0 +1,121 @@
+.recent-section {
+  padding: 40px 20px;
+  background-color: #f8f8f8;
+}
+
+.recent-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.recent-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.recent-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+.badge {
+  margin-bottom: 8px;
+}
+
+.category-label {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.category-label.sale {
+  background: #25b5791a;
+  color: #25b579;
+}
+
+.category-label.rent {
+  background: #ff98001a;
+  color: #ff9800;
+}
+
+.location {
+  color: #666;
+  margin: 0;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 8px;
+  color: #333;
+}
+
+.card-footer {
+  padding: 0 16px 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-btn {
+  background-color: #16a34a;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #15803d;
+}
+
+/* === Responsive Breakpoints === */
+@media screen and (max-width: 1024px) {
+  .recent-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recent-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-wrapper img {
+    height: 180px;
+  }
+
+  .contact-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact-btn svg {
+    display: none;
+  }
+}
