@@ -43,7 +43,7 @@
   padding: 4px 10px;
   border-radius: 4px;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
   display: inline-block;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .description {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.8;
   margin-top: 8px;
   color: #333;
@@ -84,6 +84,7 @@
   border: none;
   cursor: pointer;
   font-weight: 600;
+  font-size: 20px;
   display: flex;
   align-items: center;
   gap: 8px;
