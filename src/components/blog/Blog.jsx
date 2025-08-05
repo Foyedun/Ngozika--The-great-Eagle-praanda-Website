@@ -6,7 +6,7 @@ import coverImage from "../images/about.jpg";
 const Blog = () => {
   return (
     <section className="blog-section">
-      <Back name="Blog" title="Blog Grid - Our Blogs" cover={coverImage} />
+      <Back name="" title="" cover={coverImage} />
 
       <div className="blog-header">
         <h1>The Need for Smart Investment in Today’s Economy</h1>

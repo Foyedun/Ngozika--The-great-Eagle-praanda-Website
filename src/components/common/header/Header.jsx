@@ -26,9 +26,9 @@ const Header = () => {
         </nav>
 
         <div className="button">
-          <button className="btn1">
+          {/* <button className="btn1">
             <i className="fa fa-sign-out" aria-hidden="true"></i> Sign In
-          </button>
+          </button> */}
         </div>
 
         {/* Hamburger / Close Toggle */}
