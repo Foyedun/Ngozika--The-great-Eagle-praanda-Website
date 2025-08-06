@@ -1,7 +1,8 @@
 .blog-section {
   padding: 60px 20px;
   font-family: 'Poppins', sans-serif;
-  color: #2d3954;
+  color: #54392d;
+  font-size: 22px;
 }
 
 .blog-header {
@@ -10,15 +11,17 @@
   margin: 0 auto 50px;
 }
 
+
 .blog-header h1 {
-  font-size: 32px;
+  font-size: 30px;
   color: #1e1e1e;
   margin-bottom: 10px;
+ 
 }
 
 .blog-header p {
   color: #555;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.6;
 }
 
@@ -65,7 +68,7 @@
 
 /* Text styling */
 .blog-block h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: #1e1e1e;
   margin-bottom: 15px;
 }
@@ -75,7 +78,7 @@
 .blog-block ol {
   color: #444;
   line-height: 1.7;
-  font-size: 15px;
+  font-size: 22px;
 }
 
 .blog-block ul,
@@ -96,8 +99,15 @@
   }
 
   .blog-block h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
+
+  .blog-block p
+{
+ 
+  line-height: 1.7;
+  font-size: 22px;
+}
 
   .image-wrapper img {
     max-width: 100%;
@@ -107,14 +117,26 @@
 
 @media (max-width: 480px) {
   .blog-header h1 {
-    font-size: 20px;
+    font-size: 32px;
   }
 
   .blog-block h2 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .blog-content {
     padding: 0 10px;
   }
+  .blog-section{
+    font-size: 22px;
+
+    
+  }
+
+   .blog-block p
+{
+ 
+  line-height: 1.7;
+  font-size: 22px;
+}
 }
